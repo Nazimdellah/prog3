@@ -17,8 +17,9 @@ fun main() {
     )
 
     try{
-        trouvrveru(tableau, "pomme")
+        trouvrveru(tableau, "")
     }catch (e:Exception){
+        print(e)
 
     }
 
